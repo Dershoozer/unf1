@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Subsystem uuid="994eeb91-d59b-4ff6-8fe3-df6bc41675dc">
+		<Properties>
+			<Name>Аналитика</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Аналитика</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<UseOneCommand>false</UseOneCommand>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">f73de4cd-37db-47b8-943b-52ee7f541496</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">f8a7aa2a-6777-4a04-b190-97c3e89633e2</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">f2a624bf-39c6-4560-aa7a-67f5bd21f1a6</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">3094a891-aace-4605-a280-ad031227bacc</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">45a55151-7d40-4ce9-aac0-3ea2f150b464</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">8ab4066f-e273-4f8c-9c86-18ff563ec349</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">0ff5bc18-8314-4df4-8861-a36ba75c1b82</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">39f62a1b-3428-41ab-93b6-06c0dfa74f30</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">2fc195f4-b503-4888-9c71-4ba9d60e2216</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ДополнительныеОбработкиПроизводство</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ПанельОтчетов_КомплектацияИПроизводство</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.РазделПроизводствоАналитика</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>
