@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="623ed042-2593-430f-80be-0bbed28ef1dc">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыВыпускаВОборотГИСМ" category="Ref">
+				<xr:TypeId>045facfc-61a8-45b0-b712-633d65bbd76b</xr:TypeId>
+				<xr:ValueId>c19029ae-2391-44b5-b461-cf5e40807e64</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыВыпускаВОборотГИСМ" category="Manager">
+				<xr:TypeId>18ee52fc-0f08-465f-a470-db45085c35ef</xr:TypeId>
+				<xr:ValueId>f6243061-8f25-41e2-a96f-ca0f0f08bcd5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыВыпускаВОборотГИСМ" category="List">
+				<xr:TypeId>41228275-a4a6-45a4-884a-8bfc829f66ad</xr:TypeId>
+				<xr:ValueId>ff025a43-5180-4b34-9ddf-c3ba5e1fddf1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СпособыВыпускаВОборотГИСМ</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>8ac26438-a4c0-48bd-8406-ab829526eee2</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

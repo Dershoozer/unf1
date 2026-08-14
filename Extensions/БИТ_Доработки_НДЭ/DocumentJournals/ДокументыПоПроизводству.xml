@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<DocumentJournal uuid="08e2f10e-a48a-46f5-9961-415547020578">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentJournalSelection.ДокументыПоПроизводству" category="Selection">
+				<xr:TypeId>ab4d470d-2cb5-4736-b7b3-1c0131a0caca</xr:TypeId>
+				<xr:ValueId>534bb73d-fe3b-4a1d-88c7-57d1a8464942</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalList.ДокументыПоПроизводству" category="List">
+				<xr:TypeId>89c9a372-509c-4594-927c-020c1c2df58a</xr:TypeId>
+				<xr:ValueId>f12fba41-2a29-4d48-af3c-9834e0361b95</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalManager.ДокументыПоПроизводству" category="Manager">
+				<xr:TypeId>a13a2c22-b7fa-4968-ae4d-1a6da6a652b1</xr:TypeId>
+				<xr:ValueId>3a7adb10-0844-425f-9d2a-6b1e49006133</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ДокументыПоПроизводству</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a4ab9f0a-be52-4c0d-8e2c-32d0466e4f11</ExtendedConfigurationObject>
+			<RegisteredDocuments>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗаказНаПроизводство</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.СборкаЗапасов</xr:Item>
+			</RegisteredDocuments>
+		</Properties>
+		<ChildObjects>
+			<Column uuid="b472a67e-ce63-49a1-a4a6-d450d102a876">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Склад</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>df389b00-3fcc-4164-96a9-fb8b6753eaf2</ExtendedConfigurationObject>
+				</Properties>
+			</Column>
+			<Column uuid="1f091b2a-b727-466e-8735-534e42229ff2">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВидОперации</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>eee1564a-8245-4283-8e3d-f7e13d0ef953</ExtendedConfigurationObject>
+				</Properties>
+			</Column>
+			<Column uuid="f111f117-cfb6-4ae8-a891-77622c206cdf">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>db652d02-14d7-4f6f-8cf4-1095aa305781</ExtendedConfigurationObject>
+				</Properties>
+			</Column>
+			<Column uuid="de0d3a47-132a-4aee-993f-0c0fd09a80fa">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Номенклатура</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d9bce7ab-870f-480d-a64b-3520fc825639</ExtendedConfigurationObject>
+				</Properties>
+			</Column>
+			<Column uuid="ca538d52-fd30-4803-893e-2ce0ad8d51e0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Комментарий</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d9c5bc07-e639-44cf-b6ef-aa21560cf230</ExtendedConfigurationObject>
+				</Properties>
+			</Column>
+			<Column uuid="3aa830e4-d7ac-46ed-b59c-ae5f2428d647">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Автор</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5933b1ea-3877-4f90-90fb-29ff2f4c7d53</ExtendedConfigurationObject>
+				</Properties>
+			</Column>
+			<Column uuid="7692f58e-6853-4d8f-b0ca-fff9e78ba33f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Ответственный</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>eee5579f-60a5-4346-8a03-1a90ddd03dac</ExtendedConfigurationObject>
+				</Properties>
+			</Column>
+			<Column uuid="7625b1db-5548-4b7a-9ceb-fd0ec57be305">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЗаказПокупателя</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>bd0fb375-96cb-4501-acdd-d097e91f993f</ExtendedConfigurationObject>
+				</Properties>
+			</Column>
+			<Column uuid="abe0f35c-2d5b-45a3-922a-2be16724f64d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЗаказНаПроизводство</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b99ae6a8-77c5-4740-9237-578258906b1c</ExtendedConfigurationObject>
+				</Properties>
+			</Column>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</DocumentJournal>
+</MetaDataObject>

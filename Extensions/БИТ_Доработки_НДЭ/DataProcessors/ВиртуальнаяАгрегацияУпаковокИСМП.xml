@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<DataProcessor uuid="11b8e295-29f4-48f3-bee5-744b46cd1694">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.ВиртуальнаяАгрегацияУпаковокИСМП" category="Object">
+				<xr:TypeId>a824e30a-bbd1-4915-80ac-538792cb14b5</xr:TypeId>
+				<xr:ValueId>84c22483-01c9-4522-adc1-ae1bcb26c7c6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.ВиртуальнаяАгрегацияУпаковокИСМП" category="Manager">
+				<xr:TypeId>4788aa3a-61d0-43f6-ae71-652f0ad32952</xr:TypeId>
+				<xr:ValueId>8c02e353-d738-41e3-a4fe-90bde2e2c7e2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВиртуальнаяАгрегацияУпаковокИСМП</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ce847984-9e17-40fd-9663-b13f888e0220</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Form>Форма</Form>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

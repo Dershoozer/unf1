@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Table name="ТаблицаФасовок" id="1">
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.ТаблицаФасовок</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ТаблицаФасовокКонтекстноеМеню" id="2"/>
+			<AutoCommandBar name="ТаблицаФасовокКоманднаяПанель" id="3">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ТаблицаФасовокРасширеннаяПодсказка" id="4"/>
+			<SearchStringAddition name="ТаблицаФасовокСтрокаПоиска" id="5">
+				<AdditionSource>
+					<Item>ТаблицаФасовок</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаФасовокСтрокаПоискаКонтекстноеМеню" id="6"/>
+				<ExtendedTooltip name="ТаблицаФасовокСтрокаПоискаРасширеннаяПодсказка" id="7"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ТаблицаФасовокСостояниеПросмотра" id="8">
+				<AdditionSource>
+					<Item>ТаблицаФасовок</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаФасовокСостояниеПросмотраКонтекстноеМеню" id="9"/>
+				<ExtendedTooltip name="ТаблицаФасовокСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ТаблицаФасовокУправлениеПоиском" id="11">
+				<AdditionSource>
+					<Item>ТаблицаФасовок</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаФасовокУправлениеПоискомКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="ТаблицаФасовокУправлениеПоискомРасширеннаяПодсказка" id="13"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="OnChange">ТаблицаФасовокПриИзменении</Event>
+			</Events>
+			<ChildItems>
+				<CheckBoxField name="ТаблицаФасовокОтметка" id="35">
+					<DataPath>Объект.ТаблицаФасовок.Отметка</DataPath>
+					<Enabled>false</Enabled>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ТаблицаФасовокОтметкаКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="ТаблицаФасовокОтметкаРасширеннаяПодсказка" id="37"/>
+				</CheckBoxField>
+				<LabelField name="ТаблицаФасовокБИТ_КлючСтроки" id="55">
+					<DataPath>Объект.ТаблицаФасовок.БИТ_КлючСтроки</DataPath>
+					<Visible>false</Visible>
+					<Enabled>false</Enabled>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаФасовокБИТ_КлючСтрокиКонтекстноеМеню" id="56"/>
+					<ExtendedTooltip name="ТаблицаФасовокБИТ_КлючСтрокиРасширеннаяПодсказка" id="57"/>
+				</LabelField>
+				<InputField name="ТаблицаФасовокСсылка" id="38">
+					<DataPath>Объект.ТаблицаФасовок.Ссылка</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТаблицаФасовокСсылкаКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="ТаблицаФасовокСсылкаРасширеннаяПодсказка" id="40"/>
+				</InputField>
+				<LabelField name="ТаблицаФасовокНомерСтроки" id="14">
+					<DataPath>Объект.ТаблицаФасовок.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаФасовокНомерСтрокиКонтекстноеМеню" id="15"/>
+					<ExtendedTooltip name="ТаблицаФасовокНомерСтрокиРасширеннаяПодсказка" id="16"/>
+				</LabelField>
+				<InputField name="ТаблицаФасовокНоменклатура" id="17">
+					<DataPath>Объект.ТаблицаФасовок.Номенклатура</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТаблицаФасовокНоменклатураКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="ТаблицаФасовокНоменклатураРасширеннаяПодсказка" id="19"/>
+				</InputField>
+				<InputField name="ТаблицаФасовокЕдиницаИзмерения" id="20">
+					<DataPath>Объект.ТаблицаФасовок.ЕдиницаИзмерения</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ед.</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТаблицаФасовокЕдиницаИзмеренияКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="ТаблицаФасовокЕдиницаИзмеренияРасширеннаяПодсказка" id="22"/>
+				</InputField>
+				<InputField name="ТаблицаФасовокКоличество" id="23">
+					<DataPath>Объект.ТаблицаФасовок.Количество</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТаблицаФасовокКоличествоКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="ТаблицаФасовокКоличествоРасширеннаяПодсказка" id="25"/>
+				</InputField>
+				<InputField name="ТаблицаФасовокКоличествоФакт" id="49">
+					<DataPath>Объект.ТаблицаФасовок.КоличествоФакт</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТаблицаФасовокКоличествоФактКонтекстноеМеню" id="50"/>
+					<ExtendedTooltip name="ТаблицаФасовокКоличествоФактРасширеннаяПодсказка" id="51"/>
+				</InputField>
+				<InputField name="ТаблицаФасовокСотрудник" id="26">
+					<DataPath>Объект.ТаблицаФасовок.Сотрудник</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТаблицаФасовокСотрудникКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ТаблицаФасовокСотрудникРасширеннаяПодсказка" id="28"/>
+				</InputField>
+				<InputField name="ТаблицаФасовокСтатус" id="29">
+					<DataPath>Объект.ТаблицаФасовок.Статус</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТаблицаФасовокСтатусКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ТаблицаФасовокСтатусРасширеннаяПодсказка" id="31"/>
+				</InputField>
+				<InputField name="ТаблицаФасовокСтанок" id="32">
+					<DataPath>Объект.ТаблицаФасовок.Станок</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТаблицаФасовокСтанокКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ТаблицаФасовокСтанокРасширеннаяПодсказка" id="34"/>
+				</InputField>
+				<InputField name="ТаблицаФасовокЭтоЧастьКомплектации" id="52">
+					<DataPath>Объект.ТаблицаФасовок.ЭтоЧастьКомплектации</DataPath>
+					<Visible>false</Visible>
+					<Enabled>false</Enabled>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТаблицаФасовокЭтоЧастьКомплектацииКонтекстноеМеню" id="53"/>
+					<ExtendedTooltip name="ТаблицаФасовокЭтоЧастьКомплектацииРасширеннаяПодсказка" id="54"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<UsualGroup name="Группа1" id="41">
+			<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="42"/>
+			<ChildItems>
+				<Button name="СохранитьИзменения" id="47">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.СохранитьИзменения</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сохранить изменения</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="СохранитьИзмененияРасширеннаяПодсказка" id="48"/>
+				</Button>
+				<Button name="Обновить" id="45">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ОбновитьСписок</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обновить</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ОбновитьРасширеннаяПодсказка" id="46"/>
+				</Button>
+				<Button name="Закрыть" id="43">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Закрыть</CommandName>
+					<ExtendedTooltip name="ЗакрытьРасширеннаяПодсказка" id="44"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.СписокФасовокПоЗаказу</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ТаблицаФасовок</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.ТаблицаФасовок.Статус</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="dcscor:DesignTimeValue">Перечисление.СтатусыДокументовФасовка.Завершен</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#99CC00</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ТаблицаФасовок</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.ТаблицаФасовок.Статус</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="dcscor:DesignTimeValue">Перечисление.СтатусыДокументовФасовка.ВРаботе</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#FFFF99</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+	<Commands>
+		<Command name="Закрыть" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Закрыть</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Закрыть</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗакрытьФорму</Action>
+		</Command>
+		<Command name="СохранитьИзменения" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить изменения</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить изменения</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СохранитьИзменения</Action>
+		</Command>
+		<Command name="ОбновитьСписок" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить список</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить список</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОбновитьСписок</Action>
+		</Command>
+	</Commands>
+</Form>

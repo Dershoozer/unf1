@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="34514460-ce7b-495d-92be-f751aaed45ac">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЭтапыПроизводства" category="Object">
+				<xr:TypeId>15625aeb-73e0-4675-b961-19af0265035c</xr:TypeId>
+				<xr:ValueId>e61848c1-2f01-4ae2-bcf5-e6c6627f0daf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЭтапыПроизводства" category="Ref">
+				<xr:TypeId>321a6573-10c1-40b4-92e3-2bdce7650510</xr:TypeId>
+				<xr:ValueId>1c34d36f-aba8-4807-9908-9dcf332dd0f5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЭтапыПроизводства" category="Selection">
+				<xr:TypeId>673b602a-2f6c-4e5b-9ab7-d191e49a22e9</xr:TypeId>
+				<xr:ValueId>21087736-7d5e-4d30-95de-36a84fd81bd0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЭтапыПроизводства" category="List">
+				<xr:TypeId>7709f6f4-957e-45a0-be6b-06238f08de5d</xr:TypeId>
+				<xr:ValueId>1d89f9d1-2af6-44dc-afd1-1dbd23a3b907</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЭтапыПроизводства" category="Manager">
+				<xr:TypeId>728f1efa-abfc-4dca-9947-eba9291ad824</xr:TypeId>
+				<xr:ValueId>27c80735-f318-408e-9bee-5e7d7a502a49</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЭтапыПроизводства</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>716795b4-62f7-4da1-8f95-f1c87771d64a</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="ec4d2c4a-5a24-4ea9-9d9a-b5a86c2aaf6f">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.ЭтапыПроизводства.СтруктурныеЕдиницы" category="TabularSection">
+						<xr:TypeId>69b70d4a-beb9-4540-9813-910b787c366e</xr:TypeId>
+						<xr:ValueId>9ec20817-9805-455c-aadd-b03eb86f5691</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.ЭтапыПроизводства.СтруктурныеЕдиницы" category="TabularSectionRow">
+						<xr:TypeId>63b95c14-789a-4265-82cb-937722500e99</xr:TypeId>
+						<xr:ValueId>591f017e-0ef8-4460-a135-6ed79884b85b</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СтруктурныеЕдиницы</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2ada776d-cebd-4977-bc20-317c535a794e</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="f053e59d-abb9-4700-a31f-e3e925f1df3e">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>СтруктурнаяЕдиница</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>ad91d7d5-6dc1-47e0-9482-7092b1751c3b</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.СтруктурныеЕдиницы</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="fe571764-c7a4-41f7-ad49-d020c4a25fc6">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ПоУмолчанию</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>93068c75-b3b5-49c2-aa93-0b16843e3838</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

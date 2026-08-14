@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="23d94966-5dc2-4503-907f-04569ff2850b">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыДокументовЭДО" category="Ref">
+				<xr:TypeId>fea6280e-95af-47e4-85dd-657a1b0b4a5f</xr:TypeId>
+				<xr:ValueId>f301016d-4f03-4385-bbdd-705fec60191f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыДокументовЭДО" category="Manager">
+				<xr:TypeId>b5c5f013-311c-40b8-87f3-07ec5f1da531</xr:TypeId>
+				<xr:ValueId>b9359af6-aded-422e-81ea-f6cc27b69740</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыДокументовЭДО" category="List">
+				<xr:TypeId>a822ce75-95c4-4d09-9d2d-3006b9af6d82</xr:TypeId>
+				<xr:ValueId>65e8d349-0cc8-4e41-8e78-af4620ad1aa2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТипыДокументовЭДО</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>619b38a5-86f8-4cd4-8c33-5cccf63e7f21</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="db222675-8dc6-4036-8b19-83c4f45cc3a7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОтветНаЗаказ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>14bd5c0f-e760-4a3a-99da-7478589f22fe</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="316b502f-7f19-4ed3-b94f-cf473dc517d6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СчетНаОплату</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f1b2c7d8-708b-4934-93e4-36b076cab23d</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

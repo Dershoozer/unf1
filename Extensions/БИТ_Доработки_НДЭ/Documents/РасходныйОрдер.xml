@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="83a8201f-08a2-45b0-be4f-0ca42bef875e">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.РасходныйОрдер" category="Object">
+				<xr:TypeId>be4b5355-9dc6-4d02-8e6b-6bbe2613b213</xr:TypeId>
+				<xr:ValueId>565c68ef-7ace-4a3a-9182-39b613f2e518</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.РасходныйОрдер" category="Ref">
+				<xr:TypeId>9032634e-3108-4890-a354-81b1d0ebe49a</xr:TypeId>
+				<xr:ValueId>bff2676c-f6d0-446e-8b6e-5c31fee47e4c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.РасходныйОрдер" category="Selection">
+				<xr:TypeId>c0784023-c473-4573-af29-cbc2337f0727</xr:TypeId>
+				<xr:ValueId>80aa13c0-0592-4137-b503-ee6784538c2e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.РасходныйОрдер" category="List">
+				<xr:TypeId>b5bae552-1058-4c48-8824-c6c104103817</xr:TypeId>
+				<xr:ValueId>d0030a4c-75f8-4d1d-90d6-91a26ed492e1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.РасходныйОрдер" category="Manager">
+				<xr:TypeId>6b547cab-9a86-494f-b95a-f627d414ec3f</xr:TypeId>
+				<xr:ValueId>605c8698-7aa9-4fa3-a5ca-cd5b423b7309</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РасходныйОрдер</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0f99b489-31f7-498f-b839-afe70c5f7ea5</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

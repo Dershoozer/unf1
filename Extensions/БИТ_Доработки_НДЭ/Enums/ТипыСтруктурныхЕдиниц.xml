@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="1fbb105c-9087-4d0d-a246-741c6d47c721">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыСтруктурныхЕдиниц" category="Ref">
+				<xr:TypeId>89086b8f-09fa-4208-b7ab-2cc9a4df4921</xr:TypeId>
+				<xr:ValueId>f00dd007-6399-4ce1-b68f-eb3c2f17e9e4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыСтруктурныхЕдиниц" category="Manager">
+				<xr:TypeId>305b59eb-3f33-4a07-9686-acb595b6087d</xr:TypeId>
+				<xr:ValueId>853f0091-03be-4ccb-9d10-5d17549c70be</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыСтруктурныхЕдиниц" category="List">
+				<xr:TypeId>56f22a91-66be-4fe6-af7f-ba819eac66e1</xr:TypeId>
+				<xr:ValueId>bd8c928b-4e4a-4073-907b-866eb3d9806a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТипыСтруктурныхЕдиниц</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b4fd140b-4f87-4d31-b394-ba3eeae7026c</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="13ea1965-59a9-4992-aa73-c00829ea3e7d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Склад</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>86426cf8-824c-479b-96ad-7dc1a16c73ba</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="58b942c7-2933-49ae-9312-dda0903e10c6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Подразделение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1b04bee5-2b2a-4bfe-b2f0-acf30a72c111</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

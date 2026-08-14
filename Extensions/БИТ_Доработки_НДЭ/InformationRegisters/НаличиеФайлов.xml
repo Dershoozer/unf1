@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="c9b1f58c-e828-48db-8796-b0e446a9facc">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.НаличиеФайлов" category="Record">
+				<xr:TypeId>43c159cc-7144-4e83-8571-a18e9a722174</xr:TypeId>
+				<xr:ValueId>d9a4ac47-7e44-40bc-a0b1-69d85f802926</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.НаличиеФайлов" category="Manager">
+				<xr:TypeId>417c214e-fa87-46cd-a2ba-463886385f23</xr:TypeId>
+				<xr:ValueId>3ede63d0-43c0-432d-96fa-b01db3d16d87</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.НаличиеФайлов" category="Selection">
+				<xr:TypeId>2299e9fd-0966-4a14-b7fb-47c0d06b2f7b</xr:TypeId>
+				<xr:ValueId>3badcdfb-30f9-459a-825e-bfaaf6aa5e41</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.НаличиеФайлов" category="List">
+				<xr:TypeId>33411a56-4696-4122-8527-ba35db88c16f</xr:TypeId>
+				<xr:ValueId>0b68fb56-3fbc-4942-92f9-406bcae69a77</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.НаличиеФайлов" category="RecordSet">
+				<xr:TypeId>7ff6ae71-fca5-414c-92be-c861b2804a48</xr:TypeId>
+				<xr:ValueId>539dc9f0-8a35-4970-962d-76db0165c80d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.НаличиеФайлов" category="RecordKey">
+				<xr:TypeId>52b282ab-198d-4cd0-b82f-48f4f8e38f7c</xr:TypeId>
+				<xr:ValueId>f9fba09f-f354-4299-af71-2eb181250a2f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.НаличиеФайлов" category="RecordManager">
+				<xr:TypeId>659ca951-edae-4d59-ba64-218835052ed6</xr:TypeId>
+				<xr:ValueId>a1ba53a0-e4db-430e-a277-5b4ebea9fa5e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НаличиеФайлов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>060b2bb4-ca03-4da9-930f-7f91f6299a35</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="7ebe0bca-839c-4f23-9337-d7fad7799f7e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЕстьФайлы</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>394b1a1c-a7ae-41b7-a346-4bac99fa567d</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="432265ce-9574-42f1-a008-561e2b37a56b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ОбъектСФайлами</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ccfe4e36-80b6-419f-8bb3-c1046203d023</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ВладелецПрисоединенныхФайлов</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

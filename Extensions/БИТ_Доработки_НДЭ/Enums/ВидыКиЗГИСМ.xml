@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="ea859d34-1482-4b6a-bfed-2de88bf3812c">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыКиЗГИСМ" category="Ref">
+				<xr:TypeId>3e1b9343-c6ff-4bf8-8509-462c34c58093</xr:TypeId>
+				<xr:ValueId>547a9bc2-8bae-4a35-baf3-1eb49f0d6ce2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыКиЗГИСМ" category="Manager">
+				<xr:TypeId>304ae20e-ee97-4cb0-9efc-a2b389f68923</xr:TypeId>
+				<xr:ValueId>7985256e-c7d7-4823-96a1-1a464925f188</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыКиЗГИСМ" category="List">
+				<xr:TypeId>91a30017-8272-47a3-a267-c9c11669a6b2</xr:TypeId>
+				<xr:ValueId>70d3b957-b7a6-403b-b40d-b167d0c4048f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыКиЗГИСМ</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>9650cee0-43d9-437e-94cb-98135702b751</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

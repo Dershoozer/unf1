@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="84fab70a-2c2e-4372-8e21-951f7a978ff8">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыУпаковок" category="Ref">
+				<xr:TypeId>e490bc28-f62d-4b5d-b286-ad35cf80ee5f</xr:TypeId>
+				<xr:ValueId>e3c0b27d-c941-4f9f-aa0c-382bf273fc80</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыУпаковок" category="Manager">
+				<xr:TypeId>75c355dd-2de2-4d14-bb35-ab6b048a0544</xr:TypeId>
+				<xr:ValueId>9661a305-c470-4465-90ba-7746d96da4d6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыУпаковок" category="List">
+				<xr:TypeId>aa014c6c-2ac9-4230-b90b-36744316d381</xr:TypeId>
+				<xr:ValueId>5fd8ff2c-9a2d-43ea-bad1-5acb830567a1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТипыУпаковок</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1c46f51c-4d9e-4447-af1d-eeb56886e8ae</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="b0ff0e8d-a9f8-45f5-b278-2a56e3cc3643">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>МонотоварнаяУпаковка</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3f51da5e-635c-4c74-b6c4-630b87dbdd80</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

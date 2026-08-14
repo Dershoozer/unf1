@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="d44f904e-31c9-4d9a-bd93-64ef98d3dffc">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыПродукцииИС" category="Ref">
+				<xr:TypeId>6ab965f3-1428-4b40-95de-0981b44c6405</xr:TypeId>
+				<xr:ValueId>457bf58a-968c-4d12-a372-ab7870bc9f83</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыПродукцииИС" category="Manager">
+				<xr:TypeId>72e7ad76-e0f8-4ac9-82cd-a6f1253cc2c3</xr:TypeId>
+				<xr:ValueId>144178ec-2b94-4f9d-a28d-a52aa48d8516</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыПродукцииИС" category="List">
+				<xr:TypeId>0d4af7ce-d8a7-462a-a5b4-d1d0ae693a51</xr:TypeId>
+				<xr:ValueId>0f5084b8-7b7c-49c5-8c56-cffd1a606555</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыПродукцииИС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f4a340b7-fe4b-45b4-8ffa-e0da4057a661</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="79c96750-9e3c-412c-a3a9-659efbbe2a24">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СладостиИКондитерскиеИзделия</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ee790530-9b8b-48a1-b9d9-c0c46afe0c95</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

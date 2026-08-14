@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="e907d5a4-05a2-4c49-8809-e8162e3463ab">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ШаблоныКодовМаркировкиСУЗ" category="Ref">
+				<xr:TypeId>4dff923f-8187-4727-9546-4afbae825e2d</xr:TypeId>
+				<xr:ValueId>871a7804-2b79-44f4-a307-4deec8476448</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ШаблоныКодовМаркировкиСУЗ" category="Manager">
+				<xr:TypeId>58db58a6-9a3a-4552-9a0e-b69bd40de46c</xr:TypeId>
+				<xr:ValueId>cfd8fec5-d817-4a5d-8c8c-005bbe909483</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ШаблоныКодовМаркировкиСУЗ" category="List">
+				<xr:TypeId>8a2144f2-523d-4933-9e7c-c5898cf22e38</xr:TypeId>
+				<xr:ValueId>1e793107-e3a2-4def-9733-52da79306868</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ШаблоныКодовМаркировкиСУЗ</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1441036e-50d8-4916-88b4-17585b9027fe</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

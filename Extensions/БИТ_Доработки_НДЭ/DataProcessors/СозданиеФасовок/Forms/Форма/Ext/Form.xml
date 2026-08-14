@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<CommandSet>
+		<ExcludedCommand>Close</ExcludedCommand>
+	</CommandSet>
+	<ShowCloseButton>false</ShowCloseButton>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="23">
+			<Group>AlwaysHorizontal</Group>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="24"/>
+			<ChildItems>
+				<InputField name="СотрудникОбщий" id="14">
+					<DataPath>Объект.СотрудникОбщий</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="СотрудникОбщийКонтекстноеМеню" id="15"/>
+					<ExtendedTooltip name="СотрудникОбщийРасширеннаяПодсказка" id="16"/>
+				</InputField>
+				<InputField name="СтанокОбщий" id="17">
+					<DataPath>Объект.СтанокОбщий</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="СтанокОбщийКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="СтанокОбщийРасширеннаяПодсказка" id="19"/>
+				</InputField>
+				<InputField name="СтатусОбщий" id="20">
+					<DataPath>Объект.СтатусОбщий</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="СтатусОбщийКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="СтатусОбщийРасширеннаяПодсказка" id="22"/>
+				</InputField>
+				<Button name="ЗаполнитьДляВсех" id="25">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ЗаполнитьДляВсех</CommandName>
+					<ExtendedTooltip name="ЗаполнитьДляВсехРасширеннаяПодсказка" id="26"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="ТаблицаФасовок" id="33">
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.ТаблицаФасовок</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ТаблицаФасовокКонтекстноеМеню" id="34"/>
+			<AutoCommandBar name="ТаблицаФасовокКоманднаяПанель" id="35"/>
+			<ExtendedTooltip name="ТаблицаФасовокРасширеннаяПодсказка" id="36"/>
+			<SearchStringAddition name="ТаблицаФасовокСтрокаПоиска" id="37">
+				<AdditionSource>
+					<Item>ТаблицаФасовок</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаФасовокСтрокаПоискаКонтекстноеМеню" id="38"/>
+				<ExtendedTooltip name="ТаблицаФасовокСтрокаПоискаРасширеннаяПодсказка" id="39"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ТаблицаФасовокСостояниеПросмотра" id="40">
+				<AdditionSource>
+					<Item>ТаблицаФасовок</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаФасовокСостояниеПросмотраКонтекстноеМеню" id="41"/>
+				<ExtendedTooltip name="ТаблицаФасовокСостояниеПросмотраРасширеннаяПодсказка" id="42"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ТаблицаФасовокУправлениеПоиском" id="43">
+				<AdditionSource>
+					<Item>ТаблицаФасовок</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаФасовокУправлениеПоискомКонтекстноеМеню" id="44"/>
+				<ExtendedTooltip name="ТаблицаФасовокУправлениеПоискомРасширеннаяПодсказка" id="45"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ТаблицаФасовокНомерСтроки" id="49">
+					<DataPath>Объект.ТаблицаФасовок.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаФасовокНомерСтрокиКонтекстноеМеню" id="50"/>
+					<ExtendedTooltip name="ТаблицаФасовокНомерСтрокиРасширеннаяПодсказка" id="51"/>
+				</LabelField>
+				<LabelField name="ТаблицаФасовокБИТ_КлючСтроки" id="72">
+					<DataPath>Объект.ТаблицаФасовок.БИТ_КлючСтроки</DataPath>
+					<Visible>false</Visible>
+					<Enabled>false</Enabled>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаФасовокБИТ_КлючСтрокиКонтекстноеМеню" id="73"/>
+					<ExtendedTooltip name="ТаблицаФасовокБИТ_КлючСтрокиРасширеннаяПодсказка" id="74"/>
+				</LabelField>
+				<InputField name="ТаблицаФасовокНоменклатура" id="46">
+					<DataPath>Объект.ТаблицаФасовок.Номенклатура</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТаблицаФасовокНоменклатураКонтекстноеМеню" id="47"/>
+					<ExtendedTooltip name="ТаблицаФасовокНоменклатураРасширеннаяПодсказка" id="48"/>
+				</InputField>
+				<InputField name="ТаблицаФасовокШтрихкод" id="75">
+					<DataPath>Объект.ТаблицаФасовок.Штрихкод</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТаблицаФасовокШтрихкодКонтекстноеМеню" id="76"/>
+					<ExtendedTooltip name="ТаблицаФасовокШтрихкодРасширеннаяПодсказка" id="77"/>
+				</InputField>
+				<InputField name="ТаблицаФасовокЕдиницаИзмерения" id="64">
+					<DataPath>Объект.ТаблицаФасовок.ЕдиницаИзмерения</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ед.</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТаблицаФасовокЕдиницаИзмеренияКонтекстноеМеню" id="65"/>
+					<ExtendedTooltip name="ТаблицаФасовокЕдиницаИзмеренияРасширеннаяПодсказка" id="66"/>
+				</InputField>
+				<InputField name="ТаблицаФасовокКоличество" id="52">
+					<DataPath>Объект.ТаблицаФасовок.Количество</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТаблицаФасовокКоличествоКонтекстноеМеню" id="53"/>
+					<ExtendedTooltip name="ТаблицаФасовокКоличествоРасширеннаяПодсказка" id="54"/>
+				</InputField>
+				<InputField name="ТаблицаФасовокСотрудник" id="55">
+					<DataPath>Объект.ТаблицаФасовок.Сотрудник</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТаблицаФасовокСотрудникКонтекстноеМеню" id="56"/>
+					<ExtendedTooltip name="ТаблицаФасовокСотрудникРасширеннаяПодсказка" id="57"/>
+				</InputField>
+				<InputField name="ТаблицаФасовокСтатус" id="58">
+					<DataPath>Объект.ТаблицаФасовок.Статус</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТаблицаФасовокСтатусКонтекстноеМеню" id="59"/>
+					<ExtendedTooltip name="ТаблицаФасовокСтатусРасширеннаяПодсказка" id="60"/>
+				</InputField>
+				<InputField name="ТаблицаФасовокСтанок" id="61">
+					<DataPath>Объект.ТаблицаФасовок.Станок</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТаблицаФасовокСтанокКонтекстноеМеню" id="62"/>
+					<ExtendedTooltip name="ТаблицаФасовокСтанокРасширеннаяПодсказка" id="63"/>
+				</InputField>
+				<InputField name="ТаблицаФасовокЭтоЧастьКомплектации" id="69">
+					<DataPath>Объект.ТаблицаФасовок.ЭтоЧастьКомплектации</DataPath>
+					<Visible>false</Visible>
+					<Enabled>false</Enabled>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТаблицаФасовокЭтоЧастьКомплектацииКонтекстноеМеню" id="70"/>
+					<ExtendedTooltip name="ТаблицаФасовокЭтоЧастьКомплектацииРасширеннаяПодсказка" id="71"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<UsualGroup name="Группа2" id="31">
+			<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+			<Group>AlwaysHorizontal</Group>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="32"/>
+			<ChildItems>
+				<Button name="Создать" id="27">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Создать</CommandName>
+					<ExtendedTooltip name="СоздатьРасширеннаяПодсказка" id="28"/>
+				</Button>
+				<Button name="Закрыть" id="67">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Закрыть</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Закрыть</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ЗакрытьРасширеннаяПодсказка" id="68"/>
+				</Button>
+				<Button name="Отмена" id="29">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Отмена</CommandName>
+					<ExtendedTooltip name="ОтменаРасширеннаяПодсказка" id="30"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.СозданиеФасовок</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Отмена" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отмена</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отмена</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Отмена</Action>
+		</Command>
+		<Command name="Создать" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Создать</Action>
+		</Command>
+		<Command name="ЗаполнитьДляВсех" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить для всех</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить для всех</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьДляВсех</Action>
+		</Command>
+		<Command name="Закрыть" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Закрыть</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Закрыть</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗакрытьФормуСоздания</Action>
+		</Command>
+	</Commands>
+</Form>

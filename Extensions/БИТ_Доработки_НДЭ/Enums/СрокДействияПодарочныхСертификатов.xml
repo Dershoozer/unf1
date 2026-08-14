@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="1ac44ee1-6a80-4f6e-aeca-224bdd32574b">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СрокДействияПодарочныхСертификатов" category="Ref">
+				<xr:TypeId>e1a0dd2c-7162-4e42-91d4-289e83269843</xr:TypeId>
+				<xr:ValueId>e3e70c29-2a55-415d-827a-647897b223f6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СрокДействияПодарочныхСертификатов" category="Manager">
+				<xr:TypeId>7cee00f8-a581-486c-bca7-19786fe1c71f</xr:TypeId>
+				<xr:ValueId>112c6994-dc50-4101-bf8c-95816ddf4b21</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СрокДействияПодарочныхСертификатов" category="List">
+				<xr:TypeId>e4129193-6602-4912-9578-051ac6cfe04b</xr:TypeId>
+				<xr:ValueId>8198aeaf-eec4-441b-bc03-eb33a86cecf6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СрокДействияПодарочныхСертификатов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>5a79b3f5-0b8b-4d6a-89d1-b868000ff481</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="3e8aac2b-9494-4ea7-87d4-be1a6b7c7eb0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>БезОграниченияСрока</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6b2b4cdc-8b3d-460f-bca2-0a0db6135a85</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ede6b0ea-99ec-4541-98b0-7dc5bbba7aa3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СОграничениемНаДату</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2a968e86-a4e5-4708-9a3f-7f7ec274b8dc</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a40b66ee-f1ef-452b-938d-fd5227833018">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПериодПослеПродажи</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5cc08cb9-6cf5-43be-b01d-51e94a8c58b9</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

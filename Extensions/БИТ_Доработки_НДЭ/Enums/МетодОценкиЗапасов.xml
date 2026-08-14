@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="e1f67835-6299-4a34-94be-84fcce54576e">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.МетодОценкиЗапасов" category="Ref">
+				<xr:TypeId>b8bb8405-0607-4566-aa1c-f3a94270aea3</xr:TypeId>
+				<xr:ValueId>dda8b1d6-462c-4da7-b537-2061f610e611</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.МетодОценкиЗапасов" category="Manager">
+				<xr:TypeId>8278d4f1-fef8-411d-a5e4-d6ac6f0e7487</xr:TypeId>
+				<xr:ValueId>33368d40-417d-4413-a7be-86643731039e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.МетодОценкиЗапасов" category="List">
+				<xr:TypeId>ef3ccb30-a0a0-4248-82c7-1a72c496155b</xr:TypeId>
+				<xr:ValueId>f02840ab-75c4-4f7f-9344-1242b31adfd5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>МетодОценкиЗапасов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>13f6f75e-ef1a-4499-be4d-09d78e2d76df</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

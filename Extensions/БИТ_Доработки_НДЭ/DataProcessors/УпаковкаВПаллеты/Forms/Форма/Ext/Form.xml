@@ -1,0 +1,499 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Width>100</Width>
+	<Height>50</Height>
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<EnterKeyBehavior>DefaultButton</EnterKeyBehavior>
+	<SaveWindowSettings>false</SaveWindowSettings>
+	<Customizable>false</Customizable>
+	<CommandSet>
+		<ExcludedCommand>Abort</ExcludedCommand>
+		<ExcludedCommand>Cancel</ExcludedCommand>
+		<ExcludedCommand>Close</ExcludedCommand>
+		<ExcludedCommand>Help</ExcludedCommand>
+		<ExcludedCommand>Ignore</ExcludedCommand>
+		<ExcludedCommand>No</ExcludedCommand>
+		<ExcludedCommand>OK</ExcludedCommand>
+		<ExcludedCommand>OpenFromMainServer</ExcludedCommand>
+		<ExcludedCommand>OpenFromStandaloneServer</ExcludedCommand>
+		<ExcludedCommand>RestoreValues</ExcludedCommand>
+		<ExcludedCommand>Retry</ExcludedCommand>
+		<ExcludedCommand>SaveValues</ExcludedCommand>
+		<ExcludedCommand>Yes</ExcludedCommand>
+	</CommandSet>
+	<ShowCloseButton>false</ShowCloseButton>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<RadioButtonField name="ИспользуемыйСклад" id="48">
+			<DataPath>Объект.ИспользуемыйСклад</DataPath>
+			<Enabled>false</Enabled>
+			<ReadOnly>true</ReadOnly>
+			<RadioButtonType>Auto</RadioButtonType>
+			<ChoiceList>
+				<xr:Item>
+					<xr:Presentation/>
+					<xr:CheckState>0</xr:CheckState>
+					<xr:Value xsi:type="FormChoiceListDesTimeValue">
+						<Presentation>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>OZON</v8:content>
+							</v8:item>
+						</Presentation>
+						<Value xsi:type="xs:decimal">1</Value>
+					</xr:Value>
+				</xr:Item>
+				<xr:Item>
+					<xr:Presentation/>
+					<xr:CheckState>0</xr:CheckState>
+					<xr:Value xsi:type="FormChoiceListDesTimeValue">
+						<Presentation>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>WB</v8:content>
+							</v8:item>
+						</Presentation>
+						<Value xsi:type="xs:decimal">2</Value>
+					</xr:Value>
+				</xr:Item>
+			</ChoiceList>
+			<ContextMenu name="ИспользуемыйСкладКонтекстноеМеню" id="49"/>
+			<ExtendedTooltip name="ИспользуемыйСкладРасширеннаяПодсказка" id="50"/>
+		</RadioButtonField>
+		<Table name="Паллеты" id="1">
+			<Representation>List</Representation>
+			<ReadOnly>true</ReadOnly>
+			<ChangeRowSet>false</ChangeRowSet>
+			<ChangeRowOrder>false</ChangeRowOrder>
+			<SelectionMode>SingleRow</SelectionMode>
+			<RowSelectionMode>Row</RowSelectionMode>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.Паллеты</DataPath>
+			<CommandSet>
+				<ExcludedCommand>Add</ExcludedCommand>
+				<ExcludedCommand>CancelSearch</ExcludedCommand>
+				<ExcludedCommand>Change</ExcludedCommand>
+				<ExcludedCommand>Copy</ExcludedCommand>
+				<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+				<ExcludedCommand>Delete</ExcludedCommand>
+				<ExcludedCommand>EndEdit</ExcludedCommand>
+				<ExcludedCommand>Find</ExcludedCommand>
+				<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
+				<ExcludedCommand>MoveDown</ExcludedCommand>
+				<ExcludedCommand>MoveUp</ExcludedCommand>
+				<ExcludedCommand>OutputList</ExcludedCommand>
+				<ExcludedCommand>SearchEverywhere</ExcludedCommand>
+				<ExcludedCommand>SearchHistory</ExcludedCommand>
+				<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+				<ExcludedCommand>SortListAsc</ExcludedCommand>
+				<ExcludedCommand>SortListDesc</ExcludedCommand>
+			</CommandSet>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ПаллетыКонтекстноеМеню" id="2"/>
+			<AutoCommandBar name="ПаллетыКоманднаяПанель" id="3">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="ПаллетыРасширеннаяПодсказка" id="4"/>
+			<SearchStringAddition name="ПаллетыСтрокаПоиска" id="5">
+				<AdditionSource>
+					<Item>Паллеты</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ПаллетыСтрокаПоискаКонтекстноеМеню" id="6"/>
+				<ExtendedTooltip name="ПаллетыСтрокаПоискаРасширеннаяПодсказка" id="7"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ПаллетыСостояниеПросмотра" id="8">
+				<AdditionSource>
+					<Item>Паллеты</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ПаллетыСостояниеПросмотраКонтекстноеМеню" id="9"/>
+				<ExtendedTooltip name="ПаллетыСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ПаллетыУправлениеПоиском" id="11">
+				<AdditionSource>
+					<Item>Паллеты</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ПаллетыУправлениеПоискомКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="ПаллетыУправлениеПоискомРасширеннаяПодсказка" id="13"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ПаллетыНомерСтроки" id="14">
+					<DataPath>Объект.Паллеты.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПаллетыНомерСтрокиКонтекстноеМеню" id="15"/>
+					<ExtendedTooltip name="ПаллетыНомерСтрокиРасширеннаяПодсказка" id="16"/>
+				</LabelField>
+				<InputField name="ПаллетыШКПаллета" id="17">
+					<DataPath>Объект.Паллеты.ШКПаллета</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Штрихкод паллета</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПаллетыШКПаллетаКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="ПаллетыШКПаллетаРасширеннаяПодсказка" id="19"/>
+				</InputField>
+				<InputField name="ПаллетыСколькоУпакованоКоробов" id="20">
+					<DataPath>Объект.Паллеты.СколькоУпакованоКоробов</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПаллетыСколькоУпакованоКоробовКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="ПаллетыСколькоУпакованоКоробовРасширеннаяПодсказка" id="22"/>
+				</InputField>
+				<InputField name="ПаллетыВместимость" id="55">
+					<DataPath>Объект.Паллеты.Вместимость</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПаллетыВместимостьКонтекстноеМеню" id="56"/>
+					<ExtendedTooltip name="ПаллетыВместимостьРасширеннаяПодсказка" id="57"/>
+				</InputField>
+				<CheckBoxField name="ПаллетыПолностьюУпакован" id="23">
+					<DataPath>Объект.Паллеты.ПолностьюУпакован</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ПаллетыПолностьюУпакованКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="ПаллетыПолностьюУпакованРасширеннаяПодсказка" id="25"/>
+				</CheckBoxField>
+				<CheckBoxField name="ПаллетыМоноПаллет" id="66">
+					<DataPath>Объект.Паллеты.МоноПаллет</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЭтоМонопаллет</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ПаллетыМоноПаллетКонтекстноеМеню" id="67"/>
+					<ExtendedTooltip name="ПаллетыМоноПаллетРасширеннаяПодсказка" id="68"/>
+				</CheckBoxField>
+				<InputField name="ПаллетыШтрихкодМонопаллета" id="69">
+					<DataPath>Объект.Паллеты.ШтрихкодМонопаллета</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПаллетыШтрихкодМонопаллетаКонтекстноеМеню" id="70"/>
+					<ExtendedTooltip name="ПаллетыШтрихкодМонопаллетаРасширеннаяПодсказка" id="71"/>
+				</InputField>
+				<InputField name="ПаллетыОтветственнаяЗона" id="72">
+					<DataPath>Объект.Паллеты.ОтветственнаяЗона</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПаллетыОтветственнаяЗонаКонтекстноеМеню" id="73"/>
+					<ExtendedTooltip name="ПаллетыОтветственнаяЗонаРасширеннаяПодсказка" id="74"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<UsualGroup name="Кнопки" id="26">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кнопки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кнопки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<HorizontalStretch>true</HorizontalStretch>
+			<Group>AlwaysHorizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="КнопкиРасширеннаяПодсказка" id="27"/>
+			<ChildItems>
+				<UsualGroup name="ДополнительныеПоПаллетам" id="30">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительные по паллетам</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительные по паллетам</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ДополнительныеПоПаллетамРасширеннаяПодсказка" id="31"/>
+					<ChildItems>
+						<Button name="ДобавитьПаллет" id="46">
+							<Type>UsualButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="ДобавитьПаллетРасширеннаяПодсказка" id="47"/>
+						</Button>
+						<Button name="УдалитьПаллет" id="44">
+							<Type>UsualButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="УдалитьПаллетРасширеннаяПодсказка" id="45"/>
+						</Button>
+						<Button name="НачатьЗановоСборкуВПаллет" id="36">
+							<Type>UsualButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="НачатьЗановоСборкуВПаллетРасширеннаяПодсказка" id="37"/>
+						</Button>
+						<Button name="ПовторнаяПечатьШтрихкодаПаллета" id="40">
+							<Type>UsualButton</Type>
+							<Width>25</Width>
+							<Height>3</Height>
+							<CommandName>Form.Command.ПовторнаяПечатьШКПаллета</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Повторная печать КИТУ(SSCC)</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="ПовторнаяПечатьШтрихкодаПаллетаРасширеннаяПодсказка" id="41"/>
+						</Button>
+						<Button name="ПоказатьСтруктуруДереваПаллета" id="53">
+							<Type>UsualButton</Type>
+							<Width>25</Width>
+							<Height>3</Height>
+							<CommandName>Form.Command.ПоказатьСтруктуруДереваПаллета</CommandName>
+							<ExtendedTooltip name="ПоказатьСтруктуруДереваПаллетаРасширеннаяПодсказка" id="54"/>
+						</Button>
+						<Button name="УдалитьКоробИзПаллета" id="51">
+							<Type>UsualButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="УдалитьКоробИзПаллетаРасширеннаяПодсказка" id="52"/>
+						</Button>
+						<Button name="ПроверитьВКакомПаллетеКороб" id="42">
+							<Type>UsualButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="ПроверитьВКакомПаллетеКоробРасширеннаяПодсказка" id="43"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ОкноОтображенияПодсказок" id="58">
+					<EnableContentChange>true</EnableContentChange>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Окно отображения подсказок</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Окно отображения подсказок</v8:content>
+						</v8:item>
+					</ToolTip>
+					<HorizontalStretch>true</HorizontalStretch>
+					<VerticalStretch>false</VerticalStretch>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<GroupVerticalAlign>Center</GroupVerticalAlign>
+					<Group>Vertical</Group>
+					<HorizontalAlign>Center</HorizontalAlign>
+					<VerticalAlign>Center</VerticalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ОкноОтображенияПодсказокРасширеннаяПодсказка" id="59"/>
+					<ChildItems>
+						<InputField name="ТекстПодсказки" id="63">
+							<DataPath>ТекстПодсказки</DataPath>
+							<Enabled>false</Enabled>
+							<ReadOnly>true</ReadOnly>
+							<TitleLocation>None</TitleLocation>
+							<ToolTipRepresentation>None</ToolTipRepresentation>
+							<HorizontalAlign>Center</HorizontalAlign>
+							<VerticalAlign>Center</VerticalAlign>
+							<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+							<GroupVerticalAlign>Center</GroupVerticalAlign>
+							<Width>50</Width>
+							<Height>6</Height>
+							<HorizontalStretch>true</HorizontalStretch>
+							<VerticalStretch>true</VerticalStretch>
+							<MultiLine>true</MultiLine>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ТекстПодсказкиКонтекстноеМеню" id="64"/>
+							<ExtendedTooltip name="ТекстПодсказкиРасширеннаяПодсказка" id="65"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Основные" id="28">
+					<EnableContentChange>true</EnableContentChange>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Основные</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Основные</v8:content>
+						</v8:item>
+					</ToolTip>
+					<HorizontalStretch>false</HorizontalStretch>
+					<VerticalStretch>false</VerticalStretch>
+					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+					<GroupVerticalAlign>Center</GroupVerticalAlign>
+					<Group>Vertical</Group>
+					<ChildrenAlign>ItemsRightTitlesRight</ChildrenAlign>
+					<HorizontalAlign>Right</HorizontalAlign>
+					<VerticalAlign>Center</VerticalAlign>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ОсновныеРасширеннаяПодсказка" id="29"/>
+					<ChildItems>
+						<Button name="НачатьСборкуВПаллет" id="34">
+							<Type>UsualButton</Type>
+							<Width>17</Width>
+							<Height>3</Height>
+							<CommandName>Form.Command.НачатьСборкуВПаллет</CommandName>
+							<ExtendedTooltip name="НачатьСборкуВПаллетРасширеннаяПодсказка" id="35"/>
+						</Button>
+						<Button name="Обновить" id="38">
+							<Type>UsualButton</Type>
+							<Width>17</Width>
+							<Height>3</Height>
+							<CommandName>Form.Command.ОбновитьСписок</CommandName>
+							<ExtendedTooltip name="ОбновитьРасширеннаяПодсказка" id="39"/>
+						</Button>
+						<Button name="Закрыть" id="32">
+							<Type>UsualButton</Type>
+							<Width>17</Width>
+							<Height>3</Height>
+							<CommandName>Form.Command.ЗакрытьФорму</CommandName>
+							<ExtendedTooltip name="ЗакрытьРасширеннаяПодсказка" id="33"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.УпаковкаВПаллеты</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ТекстПодсказки" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текст подсказки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>Паллеты</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.Паллеты.ПолностьюУпакован</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#99CC00</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+	<Commands>
+		<Command name="ОбновитьСписок" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить список</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить список</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОбновитьСписок</Action>
+		</Command>
+		<Command name="ЗакрытьФорму" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Закрыть форму</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Закрыть форму</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗакрытьФорму</Action>
+		</Command>
+		<Command name="НачатьСборкуВПаллет" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Начать сборку в паллет</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Начать сборку в паллет</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>НачатьСборкуВПаллет</Action>
+		</Command>
+		<Command name="ПовторнаяПечатьШКПаллета" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Повторная печать ШКПаллета</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Повторная печать ШКПаллета</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПовторнаяПечатьШКПаллета</Action>
+		</Command>
+		<Command name="ПоказатьСтруктуруДереваПаллета" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать структуру дерева паллета</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показать структуру дерева паллета</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПоказатьСтруктуруДереваПаллета</Action>
+		</Command>
+	</Commands>
+</Form>

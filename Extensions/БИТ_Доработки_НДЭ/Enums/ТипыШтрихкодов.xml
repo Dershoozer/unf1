@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="26858492-7ffe-4fcc-87be-0e829696a718">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыШтрихкодов" category="Ref">
+				<xr:TypeId>fdffd232-c321-45af-aab9-dffee06f5091</xr:TypeId>
+				<xr:ValueId>f9a50ffe-0f43-407b-9e59-045a99454ce9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыШтрихкодов" category="Manager">
+				<xr:TypeId>7075d6a8-4921-44e2-9356-7d326bd918b3</xr:TypeId>
+				<xr:ValueId>14722c99-73e7-4f64-a0d8-f5d0ab3ccd63</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыШтрихкодов" category="List">
+				<xr:TypeId>01057e7e-d9a7-4eb0-b89d-cd99f14e4a59</xr:TypeId>
+				<xr:ValueId>75a2e8e1-01a4-481d-982c-e520ba1eb150</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТипыШтрихкодов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>d78b4fa3-2131-42fc-a510-d9999eac4546</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="0ad79ef8-b1fc-4abe-a7e3-08c46ffe4588">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Code128</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9583cf77-42a5-458f-82ca-455fb7409dce</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="0bb3cc89-bcbb-4a0e-8fd2-c9bd83edfb56">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>SSCC</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c11814bd-4b70-4804-b2cc-d18b8dfd749a</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

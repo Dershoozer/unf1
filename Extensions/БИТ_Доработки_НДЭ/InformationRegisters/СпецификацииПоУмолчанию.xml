@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="51280f9b-ac88-47ee-b599-fe238c3b8023">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СпецификацииПоУмолчанию" category="Record">
+				<xr:TypeId>d64b51f0-ecfc-4071-b2ed-1089a698ecaf</xr:TypeId>
+				<xr:ValueId>32200234-b441-40a0-9ea1-385254b50a34</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СпецификацииПоУмолчанию" category="Manager">
+				<xr:TypeId>0035ac36-b822-404f-a905-b0d693991c69</xr:TypeId>
+				<xr:ValueId>27bb5503-223a-4490-9b2d-2d56b6cff842</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СпецификацииПоУмолчанию" category="Selection">
+				<xr:TypeId>80731da0-fbdb-4142-9cc1-e6088294f2d9</xr:TypeId>
+				<xr:ValueId>d1e43d69-50b8-498b-8ae6-21f20b66a11c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СпецификацииПоУмолчанию" category="List">
+				<xr:TypeId>c37c1b25-a394-4a85-9b56-ab58c1f7ca88</xr:TypeId>
+				<xr:ValueId>944a484d-def5-4288-89ea-df7942583768</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СпецификацииПоУмолчанию" category="RecordSet">
+				<xr:TypeId>58348080-784a-4dce-9657-c5829aac5242</xr:TypeId>
+				<xr:ValueId>0731357c-cba5-4ac1-a122-a44669fa3727</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СпецификацииПоУмолчанию" category="RecordKey">
+				<xr:TypeId>a4001ba4-8864-4f10-af07-46a5414a19a1</xr:TypeId>
+				<xr:ValueId>050e4a85-cb4a-4690-9608-834131344b55</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СпецификацииПоУмолчанию" category="RecordManager">
+				<xr:TypeId>e0d7edea-9970-4717-8779-44892ec008be</xr:TypeId>
+				<xr:ValueId>55d78711-2927-4178-8c63-198da44c9717</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СпецификацииПоУмолчанию</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f2e463c6-135a-4e07-b528-641ed4539690</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="ffc735d7-c169-49e9-b3e1-8c1fc5ff26cc">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Спецификация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e81624ad-00ee-401e-8a8c-fc017379faa8</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Спецификации</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="56f6fe65-b755-496b-b3d2-eb269faeae38">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Номенклатура</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a322d180-6bb7-4c6b-b677-c5ba22decafd</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

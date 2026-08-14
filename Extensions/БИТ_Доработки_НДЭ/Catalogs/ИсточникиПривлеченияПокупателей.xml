@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="dcf3d932-eb51-4c92-b029-234ff0d6ae20">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ИсточникиПривлеченияПокупателей" category="Object">
+				<xr:TypeId>a1d5991c-af37-444e-9549-d3263374e22b</xr:TypeId>
+				<xr:ValueId>2d5e5a1f-4ad5-48cb-b672-9fbcc35d9cb4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ИсточникиПривлеченияПокупателей" category="Ref">
+				<xr:TypeId>50dffd34-9071-40d8-8092-a889bbcdbea3</xr:TypeId>
+				<xr:ValueId>f4f0002f-13f3-42e5-8866-c26cdae06479</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ИсточникиПривлеченияПокупателей" category="Selection">
+				<xr:TypeId>f4ae5602-0cf6-4a82-9a82-e866102697fc</xr:TypeId>
+				<xr:ValueId>ef799957-4f76-4a21-a1d1-f046a20d04c1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ИсточникиПривлеченияПокупателей" category="List">
+				<xr:TypeId>f97884e3-60cd-4fdf-89c6-78c4f2d59851</xr:TypeId>
+				<xr:ValueId>a87d8054-4dfb-43a7-be56-4f417ebc7b15</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ИсточникиПривлеченияПокупателей" category="Manager">
+				<xr:TypeId>c72f9f2b-7e18-4c9c-884e-dcb12ce35c50</xr:TypeId>
+				<xr:ValueId>76471296-f464-40b6-baa0-6f4c7f0256e5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИсточникиПривлеченияПокупателей</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>5978aaee-45ea-4975-9863-5cb7557adeab</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

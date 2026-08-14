@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="03b54324-5ee7-4712-913d-dc97adfa6b43">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПриходныйОрдер" category="Object">
+				<xr:TypeId>594196b1-f840-4b81-ade1-2001dce14fac</xr:TypeId>
+				<xr:ValueId>9b5946ec-0434-4cfd-bbd7-408c3da30a5f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПриходныйОрдер" category="Ref">
+				<xr:TypeId>7af942f8-d314-4f4c-8d01-2656b90dd851</xr:TypeId>
+				<xr:ValueId>855c8b2c-fdc6-4602-a364-9a6199278654</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПриходныйОрдер" category="Selection">
+				<xr:TypeId>674a4d59-b952-4836-baae-60ab85334953</xr:TypeId>
+				<xr:ValueId>f373c120-eab8-4a8c-a20e-9403b7c8eb7f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПриходныйОрдер" category="List">
+				<xr:TypeId>ab00abdb-de3f-4400-8de3-483434d70ad7</xr:TypeId>
+				<xr:ValueId>6c9223c0-bd32-4f53-8894-9bf7d2f9c381</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПриходныйОрдер" category="Manager">
+				<xr:TypeId>0c717526-fa2a-496e-a887-912601da9c09</xr:TypeId>
+				<xr:ValueId>aa4765d4-ce52-4f0e-a98e-c7b93546e095</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПриходныйОрдер</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f1e2c9ae-b4a9-4ec0-baf2-5aa33653407b</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

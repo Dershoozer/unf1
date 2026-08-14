@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="e365a5eb-3afd-497b-97ae-6ccf6f7fad41">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаказНаЭмиссиюКодовМаркировкиСУЗ" category="Object">
+				<xr:TypeId>cee57cf0-4fad-46c7-9b25-8ed78db1d246</xr:TypeId>
+				<xr:ValueId>ecea632f-5ebc-4905-9ed7-3424438e3936</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаказНаЭмиссиюКодовМаркировкиСУЗ" category="Ref">
+				<xr:TypeId>c484d5dc-3ead-4711-9e6c-a6e8919aaffa</xr:TypeId>
+				<xr:ValueId>5a6fa034-b6e1-4e59-9e83-5d59d593e20d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаказНаЭмиссиюКодовМаркировкиСУЗ" category="Selection">
+				<xr:TypeId>8518451d-776b-4d1d-a76c-3b8b33c80a03</xr:TypeId>
+				<xr:ValueId>fc08ae67-bb8b-442b-afe0-98f8ff089b10</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаказНаЭмиссиюКодовМаркировкиСУЗ" category="List">
+				<xr:TypeId>9b62d969-856b-49d4-ab8f-3ee4b76588e1</xr:TypeId>
+				<xr:ValueId>78085263-12c3-4f67-bdbd-de8b4e5b4a2c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаказНаЭмиссиюКодовМаркировкиСУЗ" category="Manager">
+				<xr:TypeId>21d709ee-f6ad-435b-823e-a84d43e1f790</xr:TypeId>
+				<xr:ValueId>5dc59119-f370-4788-91c0-63fcd6a6e48d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗаказНаЭмиссиюКодовМаркировкиСУЗ</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>44c937c8-266d-4ead-ba9b-7edb337e173e</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="916de8e2-47df-4641-a565-3b1b94a5cfc6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6315aeae-ebcd-41bc-a2d8-8dfbd6f10faf</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОснованиеЗаказНаЭмиссиюКодовМаркировкиИСМП</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

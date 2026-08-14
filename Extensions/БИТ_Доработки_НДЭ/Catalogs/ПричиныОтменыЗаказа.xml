@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="329fd52d-df54-4b5d-a0a5-b776849931bc">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПричиныОтменыЗаказа" category="Object">
+				<xr:TypeId>5370cd8b-d9cf-47f5-a20a-965b9fede2a2</xr:TypeId>
+				<xr:ValueId>030c1023-0208-4eab-9f7c-5c8e1e1c94fa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПричиныОтменыЗаказа" category="Ref">
+				<xr:TypeId>2834521f-c30c-4659-a6e9-d9bf569e2aad</xr:TypeId>
+				<xr:ValueId>8e6871f2-7c5c-4de4-b7a9-075e8201be0a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПричиныОтменыЗаказа" category="Selection">
+				<xr:TypeId>38f8cdba-fe44-4d2b-84eb-c0edaac5df79</xr:TypeId>
+				<xr:ValueId>cf763ec0-c88a-4d32-805a-83b42bd017e0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПричиныОтменыЗаказа" category="List">
+				<xr:TypeId>66bacf58-f9ba-498c-8c54-476ae9d1c8a4</xr:TypeId>
+				<xr:ValueId>0f16415e-8419-4590-bd48-0e188bb6cde9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПричиныОтменыЗаказа" category="Manager">
+				<xr:TypeId>7ce91642-a0f7-4d13-bce7-e2ae6ae7e041</xr:TypeId>
+				<xr:ValueId>6be5a72d-161c-4b8a-9f66-08407bdaa9f7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПричиныОтменыЗаказа</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>55483b17-d542-4cbd-b3fb-8d976b5bd6ea</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

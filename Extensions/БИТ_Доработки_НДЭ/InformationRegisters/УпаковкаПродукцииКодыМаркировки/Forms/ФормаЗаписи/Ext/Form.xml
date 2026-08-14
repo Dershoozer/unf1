@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="Общие" id="58">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Общие</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Общие</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ChildrenAlign>ItemsLeftTitlesLeft</ChildrenAlign>
+			<BackColor>#E0E0E0</BackColor>
+			<ExtendedTooltip name="ОбщиеРасширеннаяПодсказка" id="59"/>
+			<ChildItems>
+				<InputField name="Период" id="37">
+					<DataPath>Запись.Period</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПериодКонтекстноеМеню" id="38"/>
+					<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="39"/>
+				</InputField>
+				<InputField name="ИндексСтроки" id="1">
+					<DataPath>Запись.ИндексСтроки</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ИндексСтрокиКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="ИндексСтрокиРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="ДокументОснование" id="4">
+					<DataPath>Запись.ДокументОснование</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДокументОснованиеКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ДокументОснованиеРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<LabelField name="НомерСтрокиВДокументеОсновании" id="7">
+					<DataPath>Запись.НомерСтрокиВДокументеОсновании</DataPath>
+					<ContextMenu name="НомерСтрокиВДокументеОснованииКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="НомерСтрокиВДокументеОснованииРасширеннаяПодсказка" id="9"/>
+				</LabelField>
+				<InputField name="Номенклатура" id="10">
+					<DataPath>Запись.Номенклатура</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НоменклатураКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="НоменклатураРасширеннаяПодсказка" id="12"/>
+				</InputField>
+				<InputField name="GTIN" id="13">
+					<DataPath>Запись.GTIN</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="GTINКонтекстноеМеню" id="14"/>
+					<ExtendedTooltip name="GTINРасширеннаяПодсказка" id="15"/>
+				</InputField>
+				<InputField name="КодМаркировки" id="16">
+					<DataPath>Запись.КодМаркировки</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="КодМаркировкиКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="КодМаркировкиРасширеннаяПодсказка" id="18"/>
+				</InputField>
+				<InputField name="ШтрихкодУпаковки" id="19">
+					<DataPath>Запись.ШтрихкодУпаковки</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ШтрихкодУпаковкиКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="ШтрихкодУпаковкиРасширеннаяПодсказка" id="21"/>
+				</InputField>
+				<InputField name="Тип" id="25">
+					<DataPath>Запись.Тип</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ТипКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="ТипРасширеннаяПодсказка" id="27"/>
+				</InputField>
+				<InputField name="НомерНабора" id="22">
+					<DataPath>Запись.НомерНабора</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НомерНабораКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="НомерНабораРасширеннаяПодсказка" id="24"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="РаботаСУпаковкой" id="60">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Работа с упаковкой</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Работа с упаковкой</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ChildrenAlign>ItemsLeftTitlesLeft</ChildrenAlign>
+			<ExtendedTooltip name="РаботаСУпаковкойРасширеннаяПодсказка" id="61"/>
+			<ChildItems>
+				<CheckBoxField name="Отсканировано" id="28">
+					<DataPath>Запись.Отсканировано</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ОтсканированоКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="ОтсканированоРасширеннаяПодсказка" id="30"/>
+				</CheckBoxField>
+				<InputField name="ДатаУпаковки" id="40">
+					<DataPath>Запись.ДатаУпаковки</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДатаУпаковкиКонтекстноеМеню" id="41"/>
+					<ExtendedTooltip name="ДатаУпаковкиРасширеннаяПодсказка" id="42"/>
+				</InputField>
+				<InputField name="ЗонаУпаковка" id="43">
+					<DataPath>Запись.ЗонаУпаковка</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ЗонаУпаковкаКонтекстноеМеню" id="44"/>
+					<ExtendedTooltip name="ЗонаУпаковкаРасширеннаяПодсказка" id="45"/>
+				</InputField>
+				<InputField name="ОтветственныйЗаУпаковкуСотрудник" id="46">
+					<DataPath>Запись.ОтветственныйЗаУпаковкуСотрудник</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ОтветственныйЗаУпаковкуСотрудникКонтекстноеМеню" id="47"/>
+					<ExtendedTooltip name="ОтветственныйЗаУпаковкуСотрудникРасширеннаяПодсказка" id="48"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="РаботаСКоробом" id="62">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Работа с коробом</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Работа с коробом</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ChildrenAlign>ItemsLeftTitlesLeft</ChildrenAlign>
+			<ExtendedTooltip name="РаботаСКоробомРасширеннаяПодсказка" id="63"/>
+			<ChildItems>
+				<CheckBoxField name="СобраноВКороб" id="34">
+					<DataPath>Запись.СобраноВКороб</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="СобраноВКоробКонтекстноеМеню" id="35"/>
+					<ExtendedTooltip name="СобраноВКоробРасширеннаяПодсказка" id="36"/>
+				</CheckBoxField>
+				<InputField name="ШтрихкодКороба" id="31">
+					<DataPath>Запись.ШтрихкодКороба</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ШтрихкодКоробаКонтекстноеМеню" id="32"/>
+					<ExtendedTooltip name="ШтрихкодКоробаРасширеннаяПодсказка" id="33"/>
+				</InputField>
+				<InputField name="ДатаКороб" id="49">
+					<DataPath>Запись.ДатаКороб</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДатаКоробКонтекстноеМеню" id="50"/>
+					<ExtendedTooltip name="ДатаКоробРасширеннаяПодсказка" id="51"/>
+				</InputField>
+				<InputField name="ЗонаКороб" id="52">
+					<DataPath>Запись.ЗонаКороб</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ЗонаКоробКонтекстноеМеню" id="53"/>
+					<ExtendedTooltip name="ЗонаКоробРасширеннаяПодсказка" id="54"/>
+				</InputField>
+				<InputField name="ОтветственныйЗаКоробСотрудник" id="55">
+					<DataPath>Запись.ОтветственныйЗаКоробСотрудник</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ОтветственныйЗаКоробСотрудникКонтекстноеМеню" id="56"/>
+					<ExtendedTooltip name="ОтветственныйЗаКоробСотрудникРасширеннаяПодсказка" id="57"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.УпаковкаПродукцииКодыМаркировки</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>
